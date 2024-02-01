@@ -1743,8 +1743,9 @@ a:focus {
   
  @media (max-width: 450px){
 
-    .listings .box-container img{
+    .listings .box-container{
        grid-template-columns: 1fr;
+       width:fit-content;
     }
   
  }
