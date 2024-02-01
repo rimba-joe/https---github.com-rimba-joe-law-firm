@@ -1741,7 +1741,7 @@ a:focus {
     text-transform: capitalize;
  }
   
- @media (max-width: 450px){
+ @media (max-width: 768px){
 
     .listings .box-container{
        grid-template-columns: 1fr;
