@@ -104,3 +104,7 @@
     
 })(jQuery);
 
+//make call
+function makeCall() {
+    window.location.href = 'tel:+254715695471'; // Replace +1234567890 with your phone number
+}
