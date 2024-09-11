@@ -868,6 +868,51 @@ a:focus {
 }
 
 
+
+/*partners profile section */
+#partners {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .partner-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .partner {
+    background-color: #f9f9f9;
+    margin: 15px;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .partner img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .partner h3 {
+    margin: 10px 0;
+  }
+  
+  .partner a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .partner a:hover {
+    text-decoration: underline;
+  }
+  
+
 /*******************************/
 /*********** FAQs CSS **********/
 /*******************************/
