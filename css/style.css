@@ -892,7 +892,7 @@ a:focus {
   }
   
   .partner img {
-    width: auto;
+    width: 40%;
     height: auto;
     border-radius: 5px;
   }
