@@ -897,6 +897,11 @@ a:focus {
     border-radius: 5px;
   }
   
+  .partner h2 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #aa9166;
+  }
   .partner h3 {
     margin: 10px 0;
   }
