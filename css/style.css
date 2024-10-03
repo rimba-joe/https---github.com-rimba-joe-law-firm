@@ -868,11 +868,10 @@ a:focus {
 }
 /* advocates and area of practice */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f9fa;
-    color: #333;
+    background-color: #f4f4f9;
 }
 
 .container {
@@ -883,9 +882,6 @@ body {
 h2 {
     text-align: center;
     color: #2c3e50;
-    font-size: 2.5em;
-    margin-bottom: 40px;
-    font-weight: bold;
 }
 
 .advocate-section {
