@@ -868,10 +868,11 @@ a:focus {
 }
 /* advocates and area of practice */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
+    background-color: #f8f9fa;
+    color: #333;
 }
 
 .container {
@@ -881,7 +882,10 @@ body {
 
 h2 {
     text-align: center;
-    color: #333;
+    color: #2c3e50;
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    font-weight: bold;
 }
 
 .advocate-section {
@@ -891,7 +895,7 @@ h2 {
 }
 
 .advocate-card {
-    background-color: white;
+    background-color: #ffffff;
     border: 1px solid #ddd;
     border-radius: 8px;
     width: 300px;
@@ -916,13 +920,13 @@ h2 {
 .advocate-info h3 {
     margin: 0;
     font-size: 1.4em;
-    color: #333;
+    color: #2980b9;
 }
 
 .advocate-info p {
     margin: 10px 0;
     font-size: 1em;
-    color: #666;
+    color: #7f8c8d;
 }
 
 .areas-of-practice {
@@ -930,7 +934,7 @@ h2 {
 }
 
 .areas-of-practice h4 {
-    color: #333;
+    color: #2c3e50;
 }
 
 .practice-list {
@@ -939,7 +943,8 @@ h2 {
 }
 
 .practice-list li {
-    background-color: #e3e3e3;
+    background-color: #3498db;
+    color: #ffffff;
     padding: 8px;
     margin: 5px 0;
     border-radius: 4px;
@@ -955,7 +960,7 @@ h2 {
 }
 
 .department h3 {
-    color: #333;
+    color: #34495e;
     margin-bottom: 10px;
     text-align: center;
 }
@@ -992,13 +997,13 @@ h2 {
 .professional-info h4 {
     margin: 0;
     font-size: 1.3em;
-    color: #333;
+    color: #e74c3c;
 }
 
 .professional-info p {
     margin: 10px 0;
     font-size: 0.9em;
-    color: #666;
+    color: #7f8c8d;
 }
 
 
