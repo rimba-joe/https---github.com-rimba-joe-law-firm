@@ -1945,7 +1945,7 @@ a:focus {
 .floating-sign {
     position: fixed;
     bottom: 20px;
-    right: 20px;
+    left: 20px;
     background-color: #e74c3c;
     color: white;
     padding: 15px 30px;
