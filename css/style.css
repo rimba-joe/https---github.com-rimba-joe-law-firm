@@ -866,7 +866,84 @@ a:focus {
 .team .team-social a:hover {
     color: #ffffff;
 }
+/* advocates and area of practice */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
 
+.container {
+    width: 80%;
+    margin: 50px auto;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.advocate-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.advocate-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+    margin: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.advocate-card:hover {
+    transform: scale(1.05);
+}
+
+.advocate-card img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.advocate-info {
+    padding: 15px;
+}
+
+.advocate-info h3 {
+    margin: 0;
+    font-size: 1.4em;
+    color: #333;
+}
+
+.advocate-info p {
+    margin: 10px 0;
+    font-size: 1em;
+    color: #666;
+}
+
+.areas-of-practice {
+    margin-top: 20px;
+}
+
+.areas-of-practice h4 {
+    color: #333;
+}
+
+.practice-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.practice-list li {
+    background-color: #e3e3e3;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 4px;
+}
 
 
 /*partners profile section */
