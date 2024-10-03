@@ -945,6 +945,62 @@ h2 {
     border-radius: 4px;
 }
 
+/* Professional Section Styles */
+.professional-section {
+    margin-top: 50px;
+}
+
+.department {
+    margin-bottom: 30px;
+}
+
+.department h3 {
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.professional-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.professional-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 280px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.professional-card:hover {
+    transform: scale(1.05);
+}
+
+.professional-card img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.professional-info {
+    padding: 15px;
+}
+
+.professional-info h4 {
+    margin: 0;
+    font-size: 1.3em;
+    color: #333;
+}
+
+.professional-info p {
+    margin: 10px 0;
+    font-size: 0.9em;
+    color: #666;
+}
+
 
 /*partners profile section */
 #partners {
