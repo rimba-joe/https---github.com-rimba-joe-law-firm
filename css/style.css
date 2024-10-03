@@ -867,16 +867,14 @@ a:focus {
     color: #ffffff;
 }
 /* advocates and area of practice */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f9;
-}
 
 .container {
     width: 80%;
     margin: 50px auto;
+}
+
+.section-header{
+    overflow: hidden;
 }
 
 .container p{
@@ -884,11 +882,6 @@ body {
     font-size: 1.1em;
     font-weight: bold;
     color: #030d0ee8;
-}
-
-h2 {
-    text-align: center;
-    color: #2c3e50;
 }
 
 .advocate-section {
