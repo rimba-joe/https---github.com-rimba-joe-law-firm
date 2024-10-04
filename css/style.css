@@ -2049,6 +2049,10 @@ a:focus {
     color: #aa9166;
 }
 
+.footer-contact{
+    overflow-wrap: break-word;
+}
+
 .footer .footer-link a {
     display: block;
     margin-bottom: 10px;
