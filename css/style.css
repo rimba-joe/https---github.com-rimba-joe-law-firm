@@ -481,6 +481,7 @@ a:focus {
     font-weight: 700;
     white-space: nowrap;
     z-index: 1;
+    overflow-wrap: break-word;
 }
 
 .section-header h2::before {
@@ -958,6 +959,10 @@ a:focus {
 /* Professional Section Styles */
 .professional-section {
     margin-top: 50px;
+}
+
+.professional-section h2 {
+    overflow-wrap: break-word;
 }
 
 .department {
