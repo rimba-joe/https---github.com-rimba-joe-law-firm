@@ -92,6 +92,7 @@ a:focus {
     font-size: 45px;
     line-height: 55px;
     font-weight: 800;
+    overflow-wrap: break-word;
 }
 
 .top-bar .logo img {
@@ -878,10 +879,11 @@ a:focus {
     font-size: 2.5em;
     margin-bottom: 40px;
     font-weight: bold;
+    overflow-wrap: break-word;
 }
 
 .section-header{
-    overflow: hidden;
+    overflow-wrap: break-word;
 }
 
 .container p{
@@ -1974,7 +1976,7 @@ a:focus {
     padding: 30px 15px;
     background: #aa9166;
     z-index: 1;
-    overflow: hidden;
+    overflow-wrap: break-word;
 }
 
 .newsletter .section-header {
